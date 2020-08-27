@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 .header{
     color: #3498db;
     font-weight: 600;
@@ -37,5 +38,8 @@
 }
 .text-p{
     color: grey;
+}
+.brandName{
+    font-family: 'Dancing Script' , cursive !important;
 }
 

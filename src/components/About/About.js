@@ -27,7 +27,7 @@ const About = () => {
                 </div>
                 <div className="row premium">
                     <div className="col-md-10 mx-auto">
-                    <h2 className="text-center premium-h2">Why Join TechTent Premium?</h2>
+                    <h2 className="text-center premium-h2">Why Join <strong className="brandName">TechTent</strong> Premium?</h2>
                     <div className="premium-div d-flex">
                         <div className="premium-div-1 col-md-4 d-flex">
                             <div className="col-md-4"><CardMembershipIcon className="badge"></CardMembershipIcon></div>
