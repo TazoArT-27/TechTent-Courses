@@ -1,0 +1,41 @@
+.header{
+    color: #3498db;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.para{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.brand-name{
+    color: #3498db;
+    font-weight:550;
+    font-size: 23px;
+}
+.background{
+    background-color: rgba(253, 250, 250, 0.568);
+}
+.premium{
+    margin-bottom: 30px;
+}
+.premium-h2{
+    color: rgb(59, 250, 224);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 40px;
+}
+.badge{
+    height: 80px !important;
+    width: 80px !important;
+    color: rgb(59, 250, 224);
+}
+.text-h3{
+    color: rgb(7, 77, 77);
+    font-weight: 600;
+}
+.text-p{
+    color: grey;
+}
+

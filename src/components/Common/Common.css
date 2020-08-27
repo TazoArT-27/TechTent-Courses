@@ -1,0 +1,60 @@
+.btn-get-started{
+    border: 2px solid #3498db;
+    background-color: white;
+    color: #3498db;
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .btn-get-started:hover{
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+  }
+  .brandName{
+    color: #3498db;
+  }
+
+  #header{
+    width: 100%;
+    height: 80vh;
+    margin-top: 70px;
+  }
+  #header h1{
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+  
+  }
+  #header h4{
+    color: #484848;
+  }
+  .header-img{
+    text-align: right;
+  }
+  #header .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @-webkit-keyframes up-down{
+    0% {
+      transform: translateY(10px)
+    }
+    100% {
+      transform: translateY(-10);
+    }
+  }
+  @keyframes up-down{
+    0% {
+      transform: translateY(10px)
+    }
+    100% {
+      transform: translateY(-10);
+    }
+  }

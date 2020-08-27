@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.mycourse-header{
+    color: #3498db;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 60px;
+    background-color: #d4f1fa;
+    padding: 20px;
+}
+
+#book{
+    height: 300px;
+    width:240px
+}
+#book img{
+    width: 100%;
+}
+#book .card{
+    padding-top: 0px;
+    border: none;
+    background-color: #d4f1fa;
+    cursor: pointer;
+}
+
+#book .card p{
+    text-align: center;
+}
+.cards-body h4{
+    font-size:15px;
+    color: rgb(7, 77, 77);
+    font-weight: 590;
+    font-family: 'Poppins', sans-serif;
+
+}
+.enroll{
+    
+    color: rgb(7, 77, 77);
+    font-family: 'Poppins', sans-serif;
+}
+.explain{
+   
+    color: rgb(7, 77, 77);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}

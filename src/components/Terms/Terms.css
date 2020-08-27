@@ -1,0 +1,14 @@
+.terms{
+    background-color: rgb(153, 33, 252);
+}
+.term{
+    margin-top: 50px;
+}
+.term h4{
+    font-size: 25px;
+    color: #ffff;
+}
+.term p{
+    color: white;
+}
+/* rgb(151, 70, 218); */
