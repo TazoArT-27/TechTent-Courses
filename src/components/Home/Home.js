@@ -14,12 +14,12 @@ const Home = () => {
             <Common name="Grow your skills with "  imgsrc={web} tagLine="We are the team of talented developers offering best courses for learning software development" visit='/courses' btname='Get Started'></Common>
         </div>
         <div className="container-fluid">
-            <div className="row">
-                <div className="col-md-10 mx-auto">
+            {/* <div className="row"> */}
+                <div className="col-md-10 col-12 mx-auto">
                 <h2 className="text-center my-5 home-header">Explore our schools to find your perfect program</h2>
                      <div className="cards d-flex mb-5">
                      
-                        <div className="col-md-3">
+                        <div className="col-md-3 col-sm-12">
                             <div className="card card1 carded">
                                 <div className="card-body">
                                     <WorkOutlineIcon className="icon-1 "></WorkOutlineIcon>
@@ -29,7 +29,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 col-sm-12">
                             <div className="card card2 carded">
                                 <div className="card-body">
                                     <EmojiObjectsIcon className="icon-2"></EmojiObjectsIcon>
@@ -39,7 +39,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 col-sm-12">
                             <div className="card card3 carded">
                                 <div className="card-body">
                                     <WatchLaterOutlinedIcon className="icon-3"></WatchLaterOutlinedIcon>
@@ -49,7 +49,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 col-sm-12">
                             <div className="card card4 carded">
                                 <div className="card-body">
                                 <HelpOutlineOutlinedIcon className="icon-4"></HelpOutlineOutlinedIcon>
@@ -60,7 +60,7 @@ const Home = () => {
                             </div>
                         </div>
                      </div>
-                </div>
+                {/* </div> */}
             </div>
 
         </div>

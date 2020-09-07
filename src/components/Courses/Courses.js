@@ -9,6 +9,7 @@ const Courses = () => {
     const fake = FakeData;
    
     const [data, setData] = useState(fake);
+    //console.log(data.id);
     const [course, setCourse] = useState([]);
     const handleAddCourse = (courses) => {
         console.log("product added",courses);
@@ -27,7 +28,7 @@ const Courses = () => {
                    <div className="row">
                      {
                          data.map((val, index) => 
-                             <Card handleAddCourse={handleAddCourse} key={index} data={val}></Card>
+                             <Card showButton={true} showTitle={true} handleAddCourse={handleAddCourse} key={index} data={val}></Card>
                          )
                      }
                    </div>

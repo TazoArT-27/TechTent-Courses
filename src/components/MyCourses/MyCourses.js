@@ -1,6 +1,8 @@
 import React from 'react';
 import'./MyCourses.css';
-import FakeData from '../FakeData/FakeData'
+import { Button } from '@material-ui/core';
+import { Link } from 'react-router-dom';
+
 
 const MyCourses = (props) => {
     const course = props.course;
@@ -46,6 +48,11 @@ const MyCourses = (props) => {
                             <div className="col-md-4 enroll mt-5">
                                 <h4 className="text-center">Enrolled: {course.length}</h4>
                                 <h5 className="text-center">Total Price: ${totalPrice}</h5>
+                                <Link to='/review'>
+                                <div className="text-center py-5" >
+                                <button  type="button" class="btn btn-primary">Review Courses</button>
+                                </div>
+                                </Link>
                             </div>
                             </div>
                             
